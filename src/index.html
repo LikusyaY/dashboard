@@ -2,50 +2,54 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>
             Доска объявлений
         </title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="style-header.css">
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
         <div class="header">
             <div class="header-top">
                 <div class="container">
-                    <div class="header-top-button">
-                        <button class="header-top-button_login">
-                            <img src="/public/person.svg" alt="person-icon" id="person-icon">
-                            <span>Войти</span>
-                        </button>
-                        <button class="header-top-button_new-ad">
-                            <span>Новое объявление</span>
-                            <img src="/public/plus.svg" alt="plus-icon">
-                        </button>
+                    <div class="header-top__block">
+                        <div class="header-top-block__buttons">
+                            <button class="header-top-buttons__login">
+                                <img src="/public/person.svg" alt="person-icon" id="person-icon">
+                                <span>Войти</span>
+                            </button>
+                            <button class="header-top-buttons__new-ad">
+                                <span>Новое объявление</span>
+                                <img src="/public/plus.svg" alt="plus-icon">
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="header-bottom">
                 <div class="container">
-                    <div class="header-bottom_main">
-                        <div class="header-bottom-main_text">
-                            <h1>Доска объявлений</h1>
-                        </div>
-                        <div class="header-bottom-main_nav-search">
-                            <button class="header-bottom-main_nav-button">
+                    <div class="header-bottom__block">
+                        <div class="header-bottom-block__menu">
+                                <h1>Доска объявлений</h1>
+                        <div class="header-bottom-block-menu__nav">
+                            <button class="header-bottom-menu-nav__categoties">
                                 <img src="/public/list-nested.svg" alt="list-nested" id="list-nested-icon">
                                 <span>Все категории</span>
                             </button>
-                            <div class="header-bottom-main_search">
+                            <div class="header-bottom-menu-nav__search">
                                 <input type="text"
-                                    id="search"                                  
+                                        id="search"                                  
                                     placeholder="Поиск по объявлениям" />
-                                <button class="header-bottom-main-search_button">
-                                    <span>Найти</span>
-                                    <img src="/public/search.svg" alt="search" id="search-icon">
+                                <button class="header-bottom-menu-nav-search__button">
+                                        <span>Найти</span>
+                                        <img src="/public/search.svg" alt="search" id="search-icon">
                                 </button>
-                            </div>
+                            </div>                        
                         </div>
-                        
-                    </div>
+                        </div> 
+                    </div>                  
                 </div>
             </div>
         </div>
