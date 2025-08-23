@@ -19,20 +19,23 @@ h4 {
     column-gap: 24px;
     row-gap: 32px;
 }
-.ads-list__add {
+.ads-list__ad {
     width: 306px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
 }
 
-#add-image {
+#ad-image {
     border-radius: 4px;
 }
 
-.ads-list-add__description {
+.ads-list-ad__description {
     display: flex;
     flex-direction: column;
 }
 
-.ads-list-add__title {
+.ads-list-ad__title {
     color: #3B82F6;
     font-size: 18px;
     font-weight: 600;
@@ -42,7 +45,7 @@ h4 {
 
 }
 
-.ads-list-add__price {
+.ads-list-ad__price {
     color: #1E293B;
     font-size: 18px;
     font-weight: 600;
@@ -50,7 +53,7 @@ h4 {
     line-height: 24px;
 }
 
-.ads-list-add__city {
+.ads-list-ad__city {
     color: #64748B;
     font-size: 14px;
     font-weight: 400;
@@ -58,7 +61,7 @@ h4 {
     line-height: 20px;
 }
 
-.ads-list-add__date-time {
+.ads-list-ad__date-time {
     color: #64748B;
     font-size: 14px;
     font-weight: 400;

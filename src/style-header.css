@@ -104,10 +104,10 @@ body {
 
 }
 
-h1 {
+h3 {
     color: #1E293B;
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 700;
     font-family: Inter, sans-serif;
 }
 
