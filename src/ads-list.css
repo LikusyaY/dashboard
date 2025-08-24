@@ -1,0 +1,71 @@
+.main__title {
+    display: flex;
+    flex-direction: column;
+}
+
+h4 {
+    margin: 32px 0 24px 0;
+    color: #1E293B;
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    
+}
+
+.ads-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 32px;
+}
+.ads-list__ad {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    width: 306px;
+}
+
+#ad-image {
+    border-radius: 4px;
+}
+
+.ads-list-ad__description {
+    display: flex;
+    flex-direction: column;
+}
+
+.ads-list-ad__title {
+    color: #3B82F6;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    word-break: break-word;
+
+}
+
+.ads-list-ad__price {
+    color: #1E293B;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.ads-list-ad__city {
+    color: #64748B;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.ads-list-ad__date-time {
+    color: #64748B;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
