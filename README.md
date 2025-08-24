@@ -1,3 +1,3 @@
 # dashboard
 
-Hello, world!
+Простая верстка главной страницы по лекции html, css.
