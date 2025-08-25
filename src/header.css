@@ -112,14 +112,14 @@ h3 {
     font-weight: 700;
 }
 
-.header-bottom-block-menu__nav {
+.menu__nav {
     display: flex;
     column-gap: 12px;
     align-items: center;
     height: 36px;
 }
 
-.header-bottom-menu-nav__categoties {
+.menu-nav__categoties {
     display: flex;
     align-items: center;
     column-gap: 8px;
@@ -134,7 +134,7 @@ h3 {
     line-height: 20px;
 }
 
-.header-bottom-menu-nav__search {
+.menu-nav__search {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -155,7 +155,7 @@ input {
     line-height: 24px;
 }
 
-.header-bottom-menu-nav-search__button {
+.menu-nav-search__button {
     display: inline-flex;
     flex-direction: row;
     justify-content: center;
