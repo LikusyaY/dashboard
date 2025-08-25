@@ -10,7 +10,6 @@ h4 {
     font-size: 24px;
     font-weight: 600;
     line-height: 32px;
-    
 }
 
 .ads-list {
@@ -20,6 +19,7 @@ h4 {
     column-gap: 24px;
     row-gap: 32px;
 }
+
 .ads-list__ad {
     display: flex;
     flex-direction: column;
