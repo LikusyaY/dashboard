@@ -7,7 +7,7 @@ body {
     height: 136px;
 }
 
-.header-top {
+.header-active {
     height: 52px;
     background-color: #1E293B;
 }
@@ -18,7 +18,7 @@ body {
     margin: auto;
 }
 
-.header-top__block {
+.header-active-block {
     display: flex;
     flex-direction: row;
     justify-content: end;
@@ -26,7 +26,7 @@ body {
     height: 52px;
 }
 
-.header-top-block__buttons {
+.header-active-buttons {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -37,7 +37,7 @@ body {
     height: 36px;
 }
 
-.header-top-buttons__login {
+.header-active-buttons-signin-btn {
     display: inline-flex;
     flex-direction: row;
     justify-content: center;
@@ -53,7 +53,7 @@ body {
     background-color: rgb(0 0 0 / 0%);
 }
 
-.header-top-buttons__login:hover {
+.header-active-buttons-signin-btn:hover {
   background-color: #FFFFFF;
   color: #3B82F6;
   border-radius: 4px;
@@ -66,7 +66,7 @@ body {
     height: 20px;
 }
 
-.header-top-buttons__new-ad {
+.header-active-buttons-newadd-btn {
     display: inline-flex;
     flex-direction: row;
     justify-content: center;
@@ -83,19 +83,19 @@ body {
     background-color: #3B82F6;
 }
 
-.header-top-buttons__new-ad:hover {
+.header-active-buttons-newadd-btn:hover {
   background-color: #FFFFFF;
   color: #3B82F6;
 }
 
-.header-bottom {
+.header-main {
     height: 84px;
     border-bottom: solid 1px;
     border-color: #E2E8F0;
     /* box-shadow: 0 4px 4px 0 rgb(0 0 0 / 25%); */
 }
 
-.header-bottom__block {
+.header-main-block {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -104,7 +104,7 @@ body {
 
 }
 
-.header-bottom-block__menu {
+.header-main-block-menu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -121,14 +121,14 @@ h3 {
     font-weight: 700;
 }
 
-.menu__nav {
+.menu-nav {
     display: flex;
     column-gap: 12px;
     align-items: center;
     height: 36px;
 }
 
-.menu-nav__categoties {
+.menu-nav-categoties-btn {
     display: flex;
     align-items: center;
     column-gap: 8px;
@@ -143,12 +143,12 @@ h3 {
     line-height: 20px;
 }
 
-.menu-nav__categoties:hover {
+.menu-nav-categoties-btn:hover {
   background-color: #3B82F6;
   color: #fff;
 }
 
-.menu-nav__search {
+.menu-nav-search {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -171,7 +171,7 @@ input {
     line-height: 24px;
 }
 
-.menu-nav-search__button {
+.menu-nav-search-btn {
     display: inline-flex;
     flex-direction: row;
     justify-content: center;
@@ -190,7 +190,7 @@ input {
     background-color: #3B82F6;
 }
 
-.menu-nav-search__button:hover {
+.menu-nav-search-btn:hover {
   background-color: #fff;
   color: #3B82F6;
   border-top: 1px solid #3B82F6;
