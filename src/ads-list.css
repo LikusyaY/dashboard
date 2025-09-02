@@ -1,10 +1,10 @@
-.main__title {
+/* .main__title {
     display: flex;
     flex-direction: column;
-}
+} */
 
-h4 {
-    margin: 32px 0 24px 0;
+.main-title {
+    margin: 32px 0;
     color: #1E293B;
     font-family: Inter, sans-serif;
     font-size: 24px;
@@ -16,38 +16,64 @@ h4 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     column-gap: 24px;
     row-gap: 32px;
     margin-bottom: 80px;
 }
 
-.ads-list__ad {
+.ad-card {
     display: flex;
     flex-direction: column;
     row-gap: 8px;
     width: 306px;
 }
 
-#ad-image {
-    border-radius: 4px;
+.ad-card:hover {
+    cursor: pointer;
 }
 
-.ads-list-ad__description {
+.ad-card-image {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    width: 306px;
+    height: 240px;
+    border-radius: 4px; 
+}
+
+.ad-card-image img {
+    
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.2s ease-out;
+}
+
+.ad-card-description {
     display: flex;
     flex-direction: column;
 }
 
-.ads-list-ad__title {
+.ad-card-title {
     color: #3B82F6;
     font-family: Inter, sans-serif;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 24px;
     word-break: break-word;
-
+    transition: color 0.2s ease;
 }
 
-.ads-list-ad__price {
+.ad-card:hover .ad-card-image img {
+  transform: scale(1.1);
+}
+
+.ad-card:hover .ad-card-description .ad-card-title {
+  color: #0EA5E9; 
+}
+
+.ad-card-price {
     color: #1E293B;
     font-family: Inter, sans-serif;
     font-size: 18px;
@@ -55,7 +81,7 @@ h4 {
     line-height: 24px;
 }
 
-.ads-list-ad__city {
+.ad-card-city {
     color: #64748B;
     font-family: Inter, sans-serif;
     font-size: 14px;
@@ -63,10 +89,18 @@ h4 {
     line-height: 20px;
 }
 
-.ads-list-ad__date-time {
+.ad-card-date {
     color: #64748B;
     font-family: Inter, sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
 }
+
+@media (max-width: 1300px) {
+    h4 {
+        margin: 64px 0 24px 0;
+    }
+}
+
+
