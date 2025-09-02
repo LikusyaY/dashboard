@@ -19,10 +19,10 @@ body {
 
 @media (max-width: 1330px) {
     .container {
-    max-width: 1296px;
-    margin: auto;
-    padding: 0 10px;
-}
+        max-width: 1296px;
+        margin: auto;
+        padding: 0 10px;
+    }
 }
 
 .header-active-block {
@@ -44,7 +44,7 @@ body {
     height: 36px;
 }
 
-.header-active-buttons-signin-btn {
+.header-active-buttons-signin {
     display: inline-flex;
     flex-direction: row;
     justify-content: center;
@@ -55,23 +55,26 @@ body {
     color: #fff;
     font-size: 14px;
     font-family: Inter, sans-serif;
+    font-weight: 500;
+    line-height: 20px;
     background-color: rgb(0 0 0 / 0%);
 }
 
-.header-active-buttons-signin-btn:hover {
-  background-color: #FFFFFF;
-  color: #3B82F6;
-  border-radius: 4px;
+.header-active-buttons-signin:hover {
+    background-color: #FFFFFF;
+    color: #3B82F6;
+    border-radius: 4px;
+    transition: all 0.2s ease;
 }
 
-.person-icon,
-.plus-icon,
-.search-icon {
+.icon-person,
+.icon-plus,
+.icon-search {
     width: 20px;
     height: 20px;
 }
 
-.header-active-buttons-newadd-btn {
+.header-active-buttons-newadd {
     display: inline-flex;
     flex-direction: row;
     justify-content: center;
@@ -85,12 +88,15 @@ body {
     color: #fff;
     font-size: 14px;
     font-family: Inter, sans-serif;
+    font-weight: 500;
+    line-height: 20px;
     background-color: #3B82F6;
 }
 
-.header-active-buttons-newadd-btn:hover {
-  background-color: #FFFFFF;
-  color: #3B82F6;
+.header-active-buttons-newadd:hover {
+    background-color: #FFFFFF;
+    color: #3B82F6;
+    transition: all 0.2s ease;
 }
 
 .header-main {
@@ -119,12 +125,13 @@ body {
     height: 36px;
 }
 
-h3 {
+.site-title {
     flex-shrink: 0;
     color: #1E293B;
     font-family: Inter, sans-serif;
     font-size: 30px;
     font-weight: 700;
+    line-height: 36px;
 }
 
 .menu-nav {
@@ -135,7 +142,7 @@ h3 {
     height: 36px;
 }
 
-.menu-nav-categoties-btn {
+.btn-categories {
     display: flex;
     flex-shrink: 0;
     align-items: center;
@@ -151,9 +158,10 @@ h3 {
     line-height: 20px;
 }
 
-.menu-nav-categoties-btn:hover {
-  background-color: #3B82F6;
-  color: #fff;
+.btn-categories:hover {
+    background-color: #3B82F6;
+    color: #fff;
+    transition: all 0.2s ease;
 }
 
 .menu-nav-search {
@@ -161,7 +169,6 @@ h3 {
     flex-direction: row;
     justify-content: start;
     align-items: center;
-    column-gap: -1px;
     row-gap: 8px;
     width: 100%;
     /* width: 824px; */
@@ -179,6 +186,10 @@ input {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+}
+
+#search::placeholder {
+    color: #94A3B8;
 }
 
 .menu-nav-search-btn {
@@ -201,23 +212,24 @@ input {
 }
 
 .menu-nav-search-btn:hover {
-  background-color: #fff;
-  color: #3B82F6;
-  border-top: 1px solid #3B82F6;
-  border-right: 1px solid #3B82F6;
-  border-bottom: 1px solid #3B82F6;
-  border-left: none;
+    background-color: #fff;
+    color: #3B82F6;
+    border-top: 1px solid #3B82F6;
+    border-right: 1px solid #3B82F6;
+    border-bottom: 1px solid #3B82F6;
+    border-left: none;
+    transition: all 0.2s ease;
 }
 
 @media (max-width: 1300px) {
-    .header-main{
+    .header-main {
         height: 126px;
     }
 
     .header-main-block-menu {
-    flex-direction: column;
-    align-items: start;
-    flex-wrap: nowrap;
-    gap: 8px;
-}
+        flex-direction: column;
+        align-items: start;
+        flex-wrap: nowrap;
+        gap: 8px;
+    }
 }
