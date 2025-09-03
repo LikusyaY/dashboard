@@ -1,0 +1,283 @@
+.main-title {
+    margin-top: 32px;
+    margin-bottom: 16px;
+    color: #1E293B;
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.main-search {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+    /* width: 100%; */
+}
+
+
+.search-menu {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: start; */
+    align-items: start;
+    /* width: 23,6%; */
+    width: 306px;
+}
+
+.search-result {
+    width: 74,53%;
+}
+
+.search-menu-title {
+    padding-bottom: 12px;
+    color: #1E293B;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.categories li {
+    color: #3B82F6;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    /* list-style-image:url('/public/list-style.svg'); */
+}
+
+.subcategory {
+    padding-left: 32px;  
+}
+
+.filter-price {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
+.filter-price-title {
+    color: #1E293B;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.filter-price-inputs {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.price-min, .price-max {
+    width: 50%;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #94A3B8;
+}
+
+.price-min, .price-max::placeholder {
+    color: #94A3B8;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.show-ads-btn {
+    width: 100%;
+    height: 48px;
+    padding: 12px;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    background-color: #3B82F6;
+}
+
+.show-ads-btn:hover {
+    background-color: #FFFFFF;
+    color: #3B82F6;
+    border: 1px solid #3B82F6;
+    transition: all 0.2s ease;
+}
+
+
+.search-result {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.filter-result {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+     /* width: 966px; */
+    height: 40px;
+}
+
+.filter-result-text {
+    color: #64748B;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.sort-select {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    row-gap: 8px;
+    column-gap: 12px;
+
+}
+
+.sort-select span {
+    color: #1E293B;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+select {
+    color: #000000;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.ads-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+
+}
+
+.ad-card {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    width: 306px;
+}
+
+.ad-card:hover {
+    cursor: pointer;
+}
+
+.ad-card-image {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    width: 306px;
+    height: 240px;
+    border-radius: 4px; 
+}
+
+.ad-card-image img {
+    
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.2s ease-out;
+}
+
+.ad-card-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.ad-card-title {
+    color: #3B82F6;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    word-break: break-word;
+    transition: color 0.2s ease;
+}
+
+.ad-card:hover .ad-card-image img {
+  transform: scale(1.1);
+}
+
+.ad-card:hover .ad-card-description .ad-card-title {
+  color: #0EA5E9; 
+}
+
+.ad-card-price {
+    color: #1E293B;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.ad-card-address {
+    color: #64748B;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.ad-card-date {
+    color: #64748B;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+@media (max-width: 1331px) {
+.ads-list {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 1300px) {
+    .main-title {
+        margin-top: 64px;
+    }
+
+    .filter-price-inputs {
+        flex-direction: column;
+    }
+
+    .price-min, .price-max {
+    width: 100%;
+    }
+
+    .search-menu {
+        width: auto;
+    }
+}
+
+@media (max-width: 760px) {
+    .filter-result  {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .search-result {
+        gap: 24px;
+    }
+
+}
